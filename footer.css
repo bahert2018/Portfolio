@@ -1,0 +1,44 @@
+footer {
+	background-color: #0f0e0e;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2.0em;
+	/* position: absolute;
+	bottom: -25px;
+	left: 0; */
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: "/ ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/* button {
+	color: rgb(255, 255, 255);
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	padding: 0.2em 0.5em;
+	border: 1px solid #C64322;
+	text-transform: uppercase;
+} */
