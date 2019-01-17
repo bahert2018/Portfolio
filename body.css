@@ -1,7 +1,22 @@
 body {
     background-image: url(./assets/pic1.jpeg)!important;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px
+}
+#LinkedInBotten{
+    border: 1px solid #1cc5bc;
+    color: white;
+    background-color: rgba(245, 245, 245, 0)
+}
+#MyWork{
+    border: 1.1px solid #1cc5bc;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#About {
+    height: 680px;
 }
