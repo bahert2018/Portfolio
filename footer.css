@@ -1,11 +1,11 @@
 footer {
 	background-color: #0e141d;
-	height: 35px;
 	font-size: 1.2em;
 	color: #fff;
 	width: 100%;
 	text-align: center;
-	padding: 1.5em 2.0em;
+	padding: 0.4em 1.0em;
+	position: float-center;
 	/* position: absolute;
 	bottom: -25px;
 	left: 0; */
@@ -42,3 +42,14 @@ footer a:hover {
 	border: 1px solid #C64322;
 	text-transform: uppercase;
 } */
+
+#submit{
+	border: 1px solid #1cc5bc;
+    color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	top: 0px;
+}
+#contact{
+	color: #1cc5bc;
+}
