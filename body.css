@@ -5,7 +5,6 @@ body {
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px
-    
 }
 #LinkedInBotten{
     border: 1px solid #1cc5bc;
@@ -20,7 +19,6 @@ body {
 #About {
     height: -500px;
 }
-
 #message{ 
     background-image: linear-gradient(#0e141d,#0e141d, #0e141d, #0e141d, #0e141d, #0e141d, #0e141d, #0e141d,#0e141d, #0e141d, white);
 }
@@ -44,38 +42,42 @@ body {
   }
   
   #pic1{
-      width: 620px;
-      height: 360px;
-      position: relative;
-      left: 30px;
-      
+    width: 450px;
+    height: 280px;
+    
+      /* position: relative;
+      left: 30px; */
   }
   #pic2{
-    width: 620px;
-    height: 360px;
-    position: relative;
-    right: -120px;
+    width: 450px;
+    height: 280px;
+    /* position: relative;
+    right: -120px; */
 }
 #pic3{
-    width: 620px;
-    height: 360px;
-    position: relative;
+    width: 450px;
+    height: 280px;
+    /* position: relative;
     left: 30px;
-    top: 10px;
+    top: 10px; */
 }
 #pic4{
-    width: 620px;
-    height: 360px;
+    width: 450px;
+    height: 280px;
     position: relative;
+    left: 450px;
+    /* position: relative;
     right: -120px;
-    top: 10px;
+    top: 10px; */
 }
 #pic5{
-    width: 620px;
-    height: 360px;
+    width: 520px;
+    height: 300px;
     position: relative;
+    left: 410px;
+    /* position: relative;
     top: -620px;
-    left: 440px;
+    left: 440px; */
 }
 #Check{
     color: white;
@@ -83,3 +85,19 @@ body {
 #check1{
     color: #1cc5bc;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 19px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 10px;
+  }
+
+  #Me{
+      color: #1cc5bc;
+  }
