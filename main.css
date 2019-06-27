@@ -6,3 +6,25 @@
 @import "project.css";
 @import "contact.css";
 @import "footer.css";
+
+.Around {
+    padding: 2rem;
+}
+
+/* .Inside{
+    display: flex;
+} */
+.page-wrap{
+    max-width: 1920px;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+

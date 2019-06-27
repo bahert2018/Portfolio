@@ -1,16 +1,15 @@
 #header {
-    /* background-image: url(./assets/pic1.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center; */
     background-color: transparent;
     color: white;
     font-size: 45px;
+    text-align: center; 
+    min-height: 350px;
+    margin-top: 10%;
+    min-width: 568px;
+    position: center;
     
 }
-.jumbotron {
-text-align: center; 
-}
+
 #web{
    color:  #1cc5bc;
 }

@@ -7,14 +7,15 @@ body {
     font-size: 15px
 }
 #LinkedInBotten{
-    border: 1px solid #1cc5bc;
+    border: 1.8px solid #1cc5bc;
     color: white;
-    background-color: rgba(245, 245, 245, 0)
+    background-color: white;
 }
 #MyWork{
     border: 1.1px solid #1cc5bc;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    position: center;
 }
 #About {
     height: -500px;
@@ -31,73 +32,105 @@ body {
     color: white
 }
 .cities {
+    display: flex;
     border: 1.1px solid #1cc5bc;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    margin: 40px;
+    size: 80%;
+    justify-content: center;
+    position: center;
+    min-width: 320px;
     padding: 20px;
-  }
-  #CssImg{ 
-      size: 391 × 212px!important;
-  }
-  
-  #pic1{
-    width: 450px;
-    height: 280px;
-    
-      /* position: relative;
-      left: 30px; */
-  }
-  #pic2{
-    width: 450px;
-    height: 280px;
-    /* position: relative;
-    right: -120px; */
+    min-width: 535px;
+}
+#CssImg{ 
+    size: 391 × 212px!important;
+}
+
+#pic1{ 
+    width: 520px;
+    height: 350px;
+    max-width: 520px;
+    padding-top: 20px;
+
+}
+#pic2{
+    width: 520px;
+    height: 350px;
+    max-width: 520px;
+    padding-top: 20px;
+
 }
 #pic3{
-    width: 450px;
-    height: 280px;
-    /* position: relative;
-    left: 30px;
-    top: 10px; */
+    width: 520px;
+    height: 350px;
+    padding-top: 20px;
+    max-width: 520px;
 }
 #pic4{
-    width: 450px;
-    height: 280px;
-    position: relative;
-    left: 450px;
-    /* position: relative;
-    right: -120px;
-    top: 10px; */
+    width: 520px;
+    height: 350px;  
+    padding-top: 20px;
+    max-width: 520px;
 }
 #pic5{
     width: 520px;
-    height: 300px;
-    position: relative;
-    left: 410px;
-    /* position: relative;
-    top: -620px;
-    left: 440px; */
+    height: 350px;
+    padding-top: 20px;
+    max-width: 520px;
 }
 #Check{
     color: white;
+    font-size: 40px;
+    min-width: 540px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 #check1{
     color: #1cc5bc;
+    font-size: 20px;
+    min-width: 540px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
 }
+
+.Hope{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 530px;
+}
+
 .flex-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 85%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 540px;
+}
+.container{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1850px;
+    justify-content: space-around;
+    
 }
-.flex-container > div {
-    background-color: #f1f1f1;
-    width: 400px;
-    margin: 19px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 10px;
-  }
 
-  #Me{
-      color: #1cc5bc;
-  }
+#Me{
+    color: #1cc5bc;
+    font-size: 16px;
+}
+
+#pic123{
+    width: 60px;
+    height: 38px;
+    top: 0px;
+}
+#MyLinkedIn{
+    width: 110px;
+    height: 30px;
+}
+
+#navbarNav{
+    
+}
