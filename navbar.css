@@ -12,7 +12,7 @@
     justify-content: left;
     
 }   
-/* .blog-progress-bar {
+.blog-progress-bar {
     width: 100%;
     pointer-events: none;
     -webkit-appearance: none;
@@ -20,4 +20,4 @@
     appearance: none;
     max-height: 6px;
     position: absolute;
-} */
+}
